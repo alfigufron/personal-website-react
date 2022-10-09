@@ -1,0 +1,61 @@
+@import "../../../assets/scss/utilities/media_query";
+
+#about {
+  background-image: url('../../../assets/img/background/about.png');
+  background-size: cover;
+
+  .row {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+
+    .col-md-6 {
+      &.image-col {
+        text-align: center;
+
+        img {
+          width: 300px;
+        }
+
+        @media #{$breakpoint-md} {
+          img {
+            width: 400px;
+          }
+        }
+      }
+
+      .detail {
+        h2 {
+          font-weight: 700;
+        }
+
+        p {
+          font-weight: 600;
+        }
+
+        .biodata {
+          h6 {
+            font-weight: 600;
+            padding: 6px 0;
+          }
+        }
+
+        .social-media {
+          a {
+            text-decoration: none;
+            margin-right: 16px;
+            opacity: .6;
+
+            i {
+              font-size: 26px;
+            }
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

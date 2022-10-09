@@ -1,0 +1,56 @@
+#project {
+  padding: 60px 0;
+
+  .project-list {
+
+    .row {
+      justify-content: center;
+
+      .project {
+        margin-top: 60px;
+
+        .card {
+          height: 100%;
+          border-radius: 16px;
+          box-shadow: 10px 10px 20px 1px rgb(0 0 0 / 20%);
+          transition: .5s;
+
+          &:hover {
+            box-shadow: 10px 10px 20px 1px rgb(0 0 0 / 30%);
+          }
+
+          .card-img-top {
+            border-radius: 16px 16px 0 0;
+          }
+
+          .card-body {
+            padding: 1.5rem 1.3rem;
+
+            .title {
+              font-weight: 700;
+              text-transform: uppercase;
+            }
+
+            .description {
+              font-weight: 600;
+            }
+
+            .technologies {
+              margin-top: 6px;
+              
+              .badge {
+                margin-top: 10px;
+                padding: 8px 12px;
+                color: #495057;
+                background-color: rgba($color: #495057, $alpha: .3);
+                font-size: 15px;
+                font-weight: 600;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

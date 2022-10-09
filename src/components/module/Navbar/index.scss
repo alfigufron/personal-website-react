@@ -1,0 +1,32 @@
+@import "../../../assets/scss/utilities/media_query";
+
+#navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  display: none;
+
+  .navbar {
+    padding: 40px 0;
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 18px;
+        font-weight: 600;
+        margin-right: 40px;
+        opacity: .6;
+        
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media #{$breakpoint-md} {
+  #navbar {
+    display: block;
+  }
+}

@@ -1,0 +1,56 @@
+@import "../../../assets/scss/utilities/media_query";
+
+#skills {
+  background-image: url('../../../assets/img/background/skills.png');
+  background-size: cover;
+  padding: 100px 0;
+
+  .skill-group {
+    padding-top: 40px;
+
+    .title {
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .skill {
+      display: flex;
+      align-items: center;
+      margin-bottom: 60px;
+      justify-content: space-between;
+
+      .detail-icon {
+        width: 80px;
+        
+        .icon {
+          width: 100%;
+        }
+      }
+
+      .progress {
+        width: 100%;
+        margin: 0 36px;
+        background-color: #adb5bd;
+        border-radius: 10px;
+      }
+
+      @media #{$breakpoint-md} {
+        .detail-icon {
+          width: 64px;
+        }
+      }
+    }
+  }
+
+  @media #{$breakpoint-md} {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  @media #{$breakpoint-sm} {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

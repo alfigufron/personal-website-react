@@ -1,0 +1,138 @@
+@import "../../../assets/scss/utilities/media_query";
+
+#education {
+  background-image: url('../../../assets/img/background/education.png');
+  background-size: cover;
+  padding: 100px 0;
+
+  .list-education {
+    position: relative;
+    display: block;
+
+    .start-education {
+      padding-bottom: 60px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 10px;
+        margin-top: 42px;
+        width: 22px;
+        height: 22px;
+        background-color: #495057;
+      }
+    }
+
+    .education {
+      margin-top: 50px;
+      margin-left: 54px;
+
+      h5, h3, h6 {
+        font-weight: 700;
+      }
+
+      h3 {
+        text-transform: uppercase;
+      }
+
+      .major {
+        font-style: italic;
+      }
+
+      &.first {
+        &::after {
+          height: 110px;
+          margin-top: -180px;
+        }
+      }
+
+      &.without-major {
+        &::after {
+          margin-top: -220px !important;
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 10px;
+        margin-top: 42px;
+        width: 22px;
+        height: 22px;
+        background-color: #495057;
+        border-radius: 50%;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 10px;
+        width: 6px;
+        height: 180px;
+        background-color: #495057;
+        margin-left: 8px;
+        margin-top: -250px;
+      }
+    }
+
+    @media #{$breakpoint-sm} {
+      .start-education {
+        &::before {
+          left: 0;
+        }
+      }
+
+      .education {
+        &::before {
+          left: 0;
+        }
+
+        &::after {
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .achievements {
+    margin-top: 40px;
+
+    .title {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      i {
+        margin-right: 10px;
+      }
+    }
+
+    .list-achievement {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        margin-top: 26px;
+        
+        h5 {
+          display: flex;
+          align-items: center;
+          font-weight: 700;
+
+          i {
+            margin-right: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$breakpoint-sm} {
+    #education {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}

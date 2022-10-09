@@ -1,0 +1,45 @@
+@import "../../../assets/scss/utilities/media_query";
+
+#header {
+  background-image: url('../../../assets/img/background/header.png');
+  background-size: cover;
+
+  #header-profile {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 640px;
+  }
+
+  .profile-col {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    h1 {
+      font-size: 64px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  }
+
+  .img-col {
+    display: none;
+  }
+
+  @media #{$breakpoint-md} {
+    #header-profile {
+      display: block;
+    }
+
+    .profile-col {
+      width: 50%;
+    }
+
+    .img-col {
+      display: block;
+    }
+  }
+}

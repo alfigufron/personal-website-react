@@ -1,0 +1,58 @@
+#experience {
+  background-image: url('../../../assets/img/background/experience.png');
+  background-size: cover;
+  padding: 100px 0;
+
+  .experience-list {
+    padding: 10px 0;
+
+    .experience {
+      margin-top: 30px;
+
+      .card {
+        border-radius: 16px;
+        background-color: #495057;
+        color: #E9ECEF;
+        box-shadow: 10px 10px 20px 1px rgb(0 0 0 / 30%);
+        transition: .5s;
+        
+        &:hover {
+          box-shadow: 10px 10px 20px 1px rgb(0 0 0 /60%);
+        }
+        
+        .card-body {
+          padding: 1.5rem;
+
+          h5, h4 {
+            margin: 0;
+            font-weight: 600;
+            cursor: default;
+          }
+          
+          #title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-style: italic;
+            letter-spacing: 1px;
+          }
+
+          #company, #date {
+            display: flex;
+            align-items: center;
+            font-size: 1.1rem;
+            letter-spacing: 1.2px;
+
+            i {
+              margin-right: 10px;
+            }
+          }
+          
+          #company {
+            margin: 26px 0 14px 0;
+          }
+        }
+      }
+    }
+  }
+}
