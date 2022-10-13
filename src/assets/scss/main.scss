@@ -7,7 +7,12 @@ body {
 }
 
 a {
+  color: #495057;
   text-decoration: none;
+  
+  &:hover {
+    color: #495057;
+  }
 }
 
 ::selection {
