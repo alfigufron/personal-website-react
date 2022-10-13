@@ -36,6 +36,10 @@
         border-radius: 10px;
       }
 
+      .progress-bar {
+        color: #495057;
+      }
+
       @media #{$breakpoint-md} {
         .detail-icon {
           width: 64px;
