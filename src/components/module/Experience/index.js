@@ -56,7 +56,7 @@ export default function Experience() {
       company: "Altaflix Techno Global",
       date: {
         start_at: "June 2021",
-        end_at: "Present",
+        end_at: "July 2022",
       },
     },
     {
@@ -65,11 +65,11 @@ export default function Experience() {
       company: "Marva Cipta Indonesia",
       date: {
         start_at: "Aug 2021",
-        end_at: "Present",
+        end_at: "Sep 2022",
       },
     },
     {
-      title: "Full Stack Engineer",
+      title: "Technical Lead",
       type: "Full Time",
       company: "Cariilmu.co.id",
       date: {

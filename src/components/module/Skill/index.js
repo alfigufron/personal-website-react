@@ -9,8 +9,6 @@ import NodeIcon from "../../../assets/img/skills/nodejs.png";
 import ExpressIcon from "../../../assets/img/skills/expressjs.png";
 import ReactIcon from "../../../assets/img/skills/reactjs.png";
 import FlutterIcon from "../../../assets/img/skills/flutter.png";
-import PythonIcon from "../../../assets/img/skills/python.png";
-import FlaskIcon from "../../../assets/img/skills/flask.png";
 import MysqlIcon from "../../../assets/img/skills/mysql.png";
 import PostgreIcon from "../../../assets/img/skills/postgresql.png";
 import SqlserverIcon from "../../../assets/img/skills/sqlserver.png";
@@ -18,8 +16,6 @@ import MongoIcon from "../../../assets/img/skills/mongodb.png";
 import CssIcon from "../../../assets/img/skills/css.png";
 import FigmaIcon from "../../../assets/img/skills/figma.png";
 import SassIcon from "../../../assets/img/skills/sass.png";
-import XdIcon from "../../../assets/img/skills/xd.png";
-import PhotoshopIcon from "../../../assets/img/skills/photoshop.png";
 
 import "./index.scss";
 
@@ -29,44 +25,36 @@ export default function Skill() {
       title: "Programming",
       list: [
         {
-          icon: PhpIcon,
+          icon: JavascriptIcon,
           value: 90,
         },
         {
-          icon: LaravelIcon,
-          value: 88,
-        },
-        {
-          icon: JavascriptIcon,
-          value: 88,
-        },
-        {
-          icon: VueIcon,
-          value: 85,
-        },
-        {
           icon: NodeIcon,
-          value: 82,
+          value: 88,
         },
         {
           icon: ExpressIcon,
-          value: 82,
+          value: 88,
         },
         {
           icon: ReactIcon,
+          value: 85,
+        },
+        {
+          icon: LaravelIcon,
+          value: 82,
+        },
+        {
+          icon: PhpIcon,
+          value: 82,
+        },
+        {
+          icon: VueIcon,
           value: 80,
         },
         {
           icon: FlutterIcon,
           value: 70,
-        },
-        {
-          icon: PythonIcon,
-          value: 65,
-        },
-        {
-          icon: FlaskIcon,
-          value: 50,
         },
       ],
     },
@@ -105,14 +93,6 @@ export default function Skill() {
         {
           icon: FigmaIcon,
           value: 78,
-        },
-        {
-          icon: PhotoshopIcon,
-          value: 60,
-        },
-        {
-          icon: XdIcon,
-          value: 60,
         },
       ],
     },

@@ -20,7 +20,7 @@ export default function Header() {
           <Col md={6} className="profile-col">
             <div data-aos="fade-right">
               <h1>Muhammad Alfi Gufron</h1>
-              <h3>Full Stack Engineer | System Analyst</h3>
+              <h3>Software Engineer (Fullstack)</h3>
             </div>
           </Col>
           <Col md={6} className="img-col"></Col>
